@@ -16,15 +16,4 @@ class Animal:
 
     def speak(self):
         return f"{self.name} makes a sound."
-
-numbers = [random.randint(1, 100) for _ in range(10)]
-squared = list(map(lambda x: x**2, numbers))
-
-print(f"Random String: {random_string()}")
-print(f"Fibonacci Sequence: {list(fibonacci(10))}")
-
-dog = Animal("Dog")
-print(dog.speak())
-
-with open("output.txt", "w") as file:
-    file.write("Hello, World!\n")
+print("GPT is gay and stupid")
